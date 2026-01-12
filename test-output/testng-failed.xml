@@ -5,9 +5,14 @@
     <classes>
       <class name="com.ibm.test.SelfTestingWithSeleniumAndTestNG">
         <methods>
+          <include name="checkCart"/>
+          <include name="SignupTest"/>
           <include name="setup"/>
+          <include name="gotoCatagories"/>
           <include name="tearDown"/>
-          <include name="ValidSignUp" invocation-numbers="1 2 3"/>
+          <include name="gotoCart"/>
+          <include name="addOtherItems"/>
+          <include name="LoginCredential"/>
         </methods>
       </class> <!-- com.ibm.test.SelfTestingWithSeleniumAndTestNG -->
     </classes>

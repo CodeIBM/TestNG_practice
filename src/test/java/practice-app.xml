@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Suite">
-  <test name="Test">
-    <classes>
-      <class name="com.ibm.test.LoginTest"/>
-      <class name="com.ibm.test.TransferFundTest"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+	<test name="Test">
+		<classes>
+			<class name="com.ibm.test.SelfTestingWithSeleniumAndTestNG" />
+			<class name="com.ibm.test.LoginTest" />
+			<class name="com.ibm.test.TransferFundTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
